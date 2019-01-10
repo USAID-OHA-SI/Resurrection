@@ -12,7 +12,7 @@ plot <- ue_viz %>%
   coord_flip() +
   scale_y_continuous(labels = scales::comma) +
   labs(title = viz_title,
-       subtitle = viz_subtitle,
+       #subtitle = viz_subtitle,
        x = "", y = "",
        caption = viz_caption) +
   facet_wrap(. ~ type, scales = "free_x") +

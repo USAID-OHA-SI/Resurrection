@@ -9,7 +9,7 @@
 
 ## DHA - beneficiaries, HTS_POS
 
-df_mwcc <- df_mwcc %>% 
+hts_pos_mwi <- df_mwcc %>% 
   rename_all(~str_remove_all(.," ")) %>% 
   rename_all(~tolower(.)) %>% 
   rename(primepartner = implementingpartner) %>% 
@@ -25,4 +25,4 @@ df_mwcc <- df_mwcc %>%
   select(operatingunit, everything())
 
 #merge back onto MEr
-ben_mwi <- bind_rows(ben_mwi, df_mwcc)
+ben_mwi <- bind_rows(ben_mwi, hts_pos_mwi)
