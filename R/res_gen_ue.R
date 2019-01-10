@@ -7,11 +7,6 @@
 
 # MUNGE -------------------------------------------------------------------
 
-  ## Combine MER and ER to create UE
-  ue <- ben %>% 
-    full_join(exp, .) %>% 
-    select(program, type, everything())
-  
   #where there are HTS exp and no ben, need to duplicate so have lines for both HTS and HTS_POS
   ue_hts_pos_m <- ue %>% 
     filter(is.na(type), program == "HTS") %>% 

@@ -21,3 +21,9 @@ names <- tibble::tribble(
   "18544",               "EGPAF",
   "70185",              "Baylor"
 )
+
+ue <- ue %>%
+  left_join(., names, by = "mechanismid") %>% 
+  arrange(type, ue) %>%
+  mutate(fundingagency = str_remove(fundingagency, "HHS/"),
+         name = paste0(name, " [",fundingagency, " ", mechanismid,"]"))
