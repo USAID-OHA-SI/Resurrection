@@ -9,13 +9,6 @@
 
 ## ER - expenditures
 
-df_er <- df_er %>% 
-  rename(expenditures = fy2018,
-         mechanismid = mechanism,
-         primepartner = primepartnername, 
-         implementingmechanismname = mechanismname) %>% 
-  rename_official()
-
 exp <- df_er %>% 
   filter(program %in% c("HTS", "C&T")) %>% 
   group_by(program, operatingunit, fundingagency, mechanismid, implementingmechanismname, primepartner) %>% 
