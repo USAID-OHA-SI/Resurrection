@@ -25,3 +25,4 @@ UEs are calculated for each mechanism reporting Testing/Treatment results in FY1
 - Unit expenditures should not be used for a target based budgeting approach.
 - Unit expenditures do not capture the full context of the spending/the program. 
 - VMMC tests are excluded as their spending is categorized elsewhere. However, there often a is a discrepancy between HTS_TST VMMC testing modality and VMMC_CIRC. This analysis uses the testing modality.
+- Expenditures are reported based on a preponderance of effort as detailed in ER guidance.  This means that some expenditures included in the numerator might not be strictly HTS-focused, and/or the numerator might not include every HTS expenditures incurred
