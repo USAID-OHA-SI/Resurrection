@@ -1,11 +1,22 @@
 # Resurrection
-Creating PEPFAR Unit Expenditures with MER and ER
 
-## Calculation
+PURPOSE: Creating PEPFAR Unit Expenditures with MER and ER for testing, positive testing, and treatment
+
+UEs are calculated for each mechanism reporting Testing/Treatment results in FY18 and/or Testing/Treatment expenditures
+
+## UE Calculation
+
+*HTS_TST*
 - Numerator = All HTS Program expenditures in FY18
-- Denominator = 
-  - HTS Beneficiaries = HTS_TST - HTS_TST_VMMC [VMMC Modality]
-  - HTS_POS Beneficiaries   =   HTS_TST_POS - HTS_TST_POS_VMMC [VMMC Modality]
+- Denominator = HTS Beneficiaries FY18 = HTS_TST - HTS_TST_VMMC [VMMC Modality]
+  
+*HTS_TST_POS*
+- Numerator = All HTS Program expenditures in FY18
+- Denominator = HTS_POS Beneficiaries FY18 = HTS_TST_POS - HTS_TST_POS_VMMC [VMMC Modality]
+  
+*TX_CURR*
+- Numerator = All C&T Program expenditrues in FY18
+- Denominator = Treatment Beneficiaries FY18 = TX_CURR
   
 ## Caveats:
 - Expenditures and unit expenditures are inclusive of ONLY PEPFAR spending and should not be confused with a total unit cost.
