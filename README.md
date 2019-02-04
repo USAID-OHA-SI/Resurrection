@@ -7,15 +7,15 @@ UEs are calculated for each mechanism reporting Testing/Treatment results in FY1
 ## UE Calculation
 
 *HTS_TST*
-- Numerator = All HTS Program expenditures in FY18
+- Numerator = All HTS Program expenditures in FY18 (excluding Pharmaceutical & Health- non pharmaceutical supplies)
 - Denominator = HTS Beneficiaries FY18 = HTS_TST - HTS_TST_VMMC [VMMC Modality]
   
 *HTS_TST_POS*
-- Numerator = All HTS Program expenditures in FY18
+- Numerator = All HTS Program expenditures in FY18 (excluding Pharmaceutical & Health- non pharmaceutical supplies)
 - Denominator = HTS_POS Beneficiaries FY18 = HTS_TST_POS - HTS_TST_POS_VMMC [VMMC Modality]
   
 *TX_CURR*
-- Numerator = All C&T Program expenditrues in FY18
+- Numerator = All C&T Program expenditrues in FY18 (excluding Pharmaceutical & Health- non pharmaceutical supplies)
 - Denominator = Treatment Beneficiaries FY18 = TX_CURR
   
 ## Caveats:
